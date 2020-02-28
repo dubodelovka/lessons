@@ -1,0 +1,12 @@
+class Hero():
+    """Class to create hero for our game"""
+    def __init__(self, name, level, race):
+        """"initite our hero"""
+        self.name = name
+        self.level = level
+        self.race  = race
+        self.health = 100
+
+    def show_hero(self):
+        """"print all parametrs of this hero"""
+        discription =(name)
